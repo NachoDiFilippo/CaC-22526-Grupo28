@@ -6,6 +6,11 @@ body{
 	min-height: 100vh; 
 }
 
+.menu{
+    /* TODO */
+
+}
+
 
 .contenedor{
     width: 90%;
@@ -34,7 +39,7 @@ body{
     max-width: 1800px;
     gap: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5 px;
         
 }
