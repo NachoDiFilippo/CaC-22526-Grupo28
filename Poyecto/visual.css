@@ -7,6 +7,7 @@ body{
 }
 
 .menu{
+    color: #faf;
     /* TODO */
 
 }
@@ -23,10 +24,16 @@ body{
     grid-template-columns: auto;
     /* gap 20px; */
 }
+
 .cajatitulo{
     width: 50%;
-
+    height: 20vh;
+    font-size: large;
+    font-style: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-display:initial;
 }
+
 .titulo-l{
     text-align:justify;
     font-size: large;
@@ -35,41 +42,83 @@ body{
 }
 
 .galeria-grid{
-    width: 95%;
+    width: 90%;
     max-width: 1800px;
-    gap: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 5 px;
-        
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 5px;
+   
+    gap: 5px;
+    
 }
 
 .grid-item{
 
-	border-radius: 10px;
+	/* defino tamanio, position, margenes de los item del grid*/
 	min-height: 250px;
-    max-height: 500px;
-    min-width: 250px;
-    max-width: 500px;
-	/* font-weight: bold; */
+    max-height: 290px;
+    min-width: 75px;
+    max-width: 192px;
+	border-radius: 5%;
 	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	/* background-size: cover; */
+	position:static;
+
     background-size:contain;
+    background-repeat: no-repeat;
 	background-position: center center;
 
+    margin: 3%;
+
+
+}
+.grid-item:hover{
+    animation-name:rotate;
+    animation-duration:3s;
+}
+
+@keyframes rotate {
+    0%{
+        transform:rotate (0);
+    } 
+    100%{ transform: rotate(360deg);
+    }
 }
 
 .pie {
-    height: 200px;
+    /* defino tamano */
+    min-height: 300px; 
+    max-height:450px;
+    min-width: 100px;
+    max-width:500;
+    /* propiedades del fondo  */
     background-image: url('imagenes/fondopie.png');
-    background-position: center;
-    background-size: cover;
-    /* inline-size: auto; */
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    
 }
 .icon-pie {
-        /* inline-size: auto; */
-        width: 50px;
-       gap: 30px; 
-    }
+        
+    position:center ;
+    width: 50px;
+    gap: 30px; 
+
+}
+
+
+.formulario {
+
+    font-style: oblique;
+    font-variant-position: normal;
+    font-size:medium;
+    text-align:center;
+}
+
+.turnos{
+    font-style: normal;
+    font-variant-position: normal;
+    font-size:medium;
+    text-align:center;
+}
