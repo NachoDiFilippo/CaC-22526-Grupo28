@@ -285,7 +285,7 @@ h1,h2,h3,h4,h5,h6{cursor:pointer;}
   top:5px;
 }
 
-/* Body */
+/* aca edite el Body */
 
 
 #containerrr{
@@ -373,7 +373,7 @@ h1,h2,h3,h4,h5,h6{cursor:pointer;}
 .author:hover .credit{
   margin-left:10%;
 }
-/* Typo */ 
+/* aca edite el Typo */ 
 .title{
   font-family:arial;
   color:#e01a47;
@@ -436,7 +436,7 @@ h3{
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-/* Buttons */ 
+/* aca editan los Buttons */ 
 .button{
   width:50%;
   height:50px;
