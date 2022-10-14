@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html5>
     <head>
+
         <title> Contacto </title>
            <!-- / importo los iconoes del footer*/ -->
            <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>  
            <script src="https://use.fontawesome.com/2fe9bcf2dc.js"></script>  
            <!-- link al CCS -->
            <link rel="STYLESHEET" href="visual.css">
-           
-          <!-- <link rel="stylesheet" href="menuhamburguesa.css">/ -->
+           <!-- <link rel="stylesheet" href="menuhamburguesa.css">/ -->
+           <!-- script para validar el formulario -->
+           <script src="formulario.js"></script>
            
     </head>
 
@@ -30,24 +32,25 @@
         </nav>
 <br><br><br><br><br><br>
         <div class="formulario">
-            <form action="" method="post">
+            <form action="Productos.html" method="post">
                 
                 <br>
                 <label for="Nombre">Nombre</label><br>
-                <input maxlength="16" type="text" name="Nombre" id="Nombre" placeholder="Ej.Juan">
+                <input maxlength="16" type="text" name="Nombre" id="IDNombre" placeholder="Ej.Juan" value="ejemplo">
                 <br>
                 <label for="Apellido">Apellido</label><br>
-                <input maxlength="16" type="text" name="Apellido" id="Apellido" placeholder="Perez">
+                <input maxlength="16" type="text" name="Apellido" id="IDApellido" placeholder="Perez">
                 <br>
                 <label for="Telefono">Telefono</label><br>
-                <input minlength="10" maxlength="13" type="tel" name="telefono" id="telefono" placeholder="(011) 4xxx-xxxx">
+                <input minlength="10" maxlength="13" type="tel" name="telefono" id="IDTelefono" placeholder="(011) 4xxx-xxxx">
                 <br>
                 <label for="Email">Correo Electronico</label><br>
-                <input maxlength="32" type="email" name="Email" id="Email" placeholder="JuanPerez@ejemplo.com">
-                <br><br><br>
-        
-                <input type="submit" value="Enviar"><br>
-                <br><br><br>
+                <input maxlength="32" type="email" name="Email" id="IDEmail" placeholder="JuanPerez@ejemplo.com">
+                <br>
+                <br><br>
+                <input type="submit" id="Enviar"><br>
+                <br>
+                <br><br>
         
         
         
