@@ -186,8 +186,8 @@ a:hover, a:focus {
 }
 #footer {
     position: relative;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #1C1D21
 }
 
@@ -240,12 +240,6 @@ a:hover, a:focus {
   #content-wrap {
     padding-bottom: 2.5rem;    
   }
-
-
-  
-
-
-
 
 
 

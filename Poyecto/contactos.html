@@ -14,7 +14,7 @@
            
     </head>
 
-    <body>
+    <body class="body">
 
         <nav class="sm-navbar">
             <div class="sm-logo">
@@ -31,33 +31,61 @@
             </ul>
         
         </nav>
-<br><br><br><br><br><br>
-        <div class="formulario">
-            <form action="Productos.html" method="post">
-                
-                <br>
-                <label for="Nombre">Nombre</label><br>
-                <input maxlength="16" type="text" name="Nombre" id="IDNombre" placeholder="Ej.Juan" value="ejemplo">
-                <br>
-                <label for="Apellido">Apellido</label><br>
-                <input maxlength="16" type="text" name="Apellido" id="IDApellido" placeholder="Perez">
-                <br>
-                <label for="Telefono">Telefono</label><br>
-                <input minlength="10" maxlength="13" type="tel" name="telefono" id="IDTelefono" placeholder="(011) 4xxx-xxxx">
-                <br>
-                <label for="Email">Correo Electronico</label><br>
-                <input maxlength="32" type="email" name="Email" id="IDEmail" placeholder="JuanPerez@ejemplo.com">
-                <br>
-                <br><br>
-                <input type="submit" id="Enviar"><br>
-                <br>
-                <br><br>
-        
-        
-        
-            </form>
+        <div class="bbackground">
+            <div class="ccontainer">
+                <div class="sscreen">
+                    <div class="screen-header"><!-- barra -->
+                        <div class="screen-header-left">
+                            <div class="screen-header-button close"></div>
+                            <div class="screen-header-button maximize"></div>
+                            <div class="screen-header-button minimize"></div>
+                        </div>
+                        <div class="screen-header-right">
+                            <div class="screen-header-ellipsis"></div>
+                            <div class="screen-header-ellipsis"></div>
+                            <div class="screen-header-ellipsis"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="screen-body"> <!-- ventana dividida -->
+                        
+                        <div class="screen-body-item left">
+                            <div class="app-title">
+                            <span>COMPLETA NUESTRO FORMULARIO</span>
+                            </div>
+                            <div class="app-contact">DUDAS GENERALES : CONTACTO@SALON.COM.AR</div>
+                        </div>  
+                    
+                        <div class="screen-body-item">
+                            <div class="app-form" >
+                                <form class="app-form-group" action="Productos.html" method="post" >
+                                <div class="app-form-group">
+                                    <div class="app-form-item">
+                                    <label for="Nombre" class="app-form-control">Nombre</label><br>
+                                    <input maxlength="16" type="text" name="Nombre" id="IDNombre" placeholder="Ej.Juan" value=""class="app-form-control">
+                                    </div>
+                                    <div class="app-form-item">
+                                    <label for="Apellido" class="app-form-control">Apellido</label><br>
+                                    <input maxlength="16" type="text" name="Apellido" id="IDApellido" placeholder="Perez"class="app-form-control">
+                                    </div>
+                                    <div class="app-form-item">
+                                    <label for="Telefono" class="app-form-control">Telefono</label><br>
+                                    <input minlength="10" maxlength="13" type="tel" name="telefono" id="IDTelefono" placeholder="(011) 4xxx-xxxx"class="app-form-control">
+                                    </div>
+                                    <div class="app-form-item">
+                                    <label for="Email" class="app-form-control">Correo Electronico</label><br>
+                                    <input maxlength="32" type="email" name="Email" id="IDEmail" placeholder="JuanPerez@ejemplo.com" class="app-form-control">
+                                    </div>
+                                    <button class="app-form-button"><input type="submit" id="Enviar" class="app-form-button" value="ENVIAR"><br></button>
+                                    
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
     </body>
 
     <footer>
