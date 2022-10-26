@@ -186,8 +186,10 @@ a:hover, a:focus {
 }
 #footer {
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
     background-color: #1C1D21
 }
 
@@ -964,3 +966,13 @@ h3{
   text-shadow: 1px 2px 5px rgba(0,0,5,0.2);
 }
 
+
+
+
+
+
+/*acá se edita ubicacion*/
+#map {
+	height: 500px;
+	width: 100%;
+}
