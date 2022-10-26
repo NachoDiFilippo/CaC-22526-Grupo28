@@ -1,9 +1,17 @@
+html{
+  height: 100%;
+}
 
 body{
    	background: #ffffff;
 	color: rgb(0, 0, 0);
 	font-family: 'Roboto', sans-serif;
-	min-height: 100vh; 
+
+
+  display: flex;
+flex-direction: column;
+min-height: 100%;
+
 }
 
 .menu{
@@ -185,11 +193,9 @@ a:hover, a:focus {
     color: #e01a47;
 }
 #footer {
-    position: relative;
-    display: flex;
+margin-top: auto;
     align-items: center;
     justify-content: center;
-    padding: 40px;
     background-color: #1C1D21
 }
 
@@ -234,14 +240,6 @@ a:hover, a:focus {
 
 /*agregado para mejorar la posicion del footer*/
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    
-  }
 
 
 
@@ -949,12 +947,20 @@ h3{
 /*acá se edita Productos*/
 
 .Servicios {
-  width: 60%;
   font-size: 14px;
-  float: left;
   background: white;
   padding: 50px;
+  font-weight: normal;
+  text-align: center;
 }
+
+.pel{
+  float: right;
+}
+.pel2{
+  float: left;
+}
+
 
 .titless {
   font-family: arial;
