@@ -8,7 +8,7 @@
 
 body
 {
-    background: linear-gradient(to right, rgba(78, 84, 200, 0.082), rgba(143, 148, 251, 0.3)),
+    background: linear-gradient(to right, rgba(238, 54, 97, 0.432), rgba(236, 96, 143, 0.24)),
                 url('https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
